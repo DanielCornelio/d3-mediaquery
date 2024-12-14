@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: grid;
+    grid-template-areas: 
+    'navbar'
+    'filtros'
+    'contenido'
+    'footer';
+    min-height: 100vh;
+    grid-template-columns: 100%;
+    grid-template-rows: 80px 50px auto 80px;
+}
+.navbar{
+    grid-area: navbar;
+    background-color: lightseagreen;
+}
+.filtros{
+    grid-area: filtros;
+    background-color: cornflowerblue;
+}
+.contenido{
+    grid-area: contenido;
+    background-color: coral;
+}
+.footer{
+    grid-area: footer;
+    background-color: crimson;
+}
+
+@media (min-width:576px){
+    .container{
+        grid-template-areas: 
+        'navbar filtros'
+        'navbar contenido'
+        'footer contenido';
+        min-height: 100vh;
+        grid-template-columns: 25% auto;
+        grid-template-rows: 80px auto 100px;
+    }
+}
