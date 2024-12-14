@@ -37,6 +37,30 @@
     grid-area: contenido;
     background-color: coral;
 }
+.products{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 20px;
+    
+}
+.card{
+    border: 1px solid mediumspringgreen;
+    border-radius: 8px;
+    width: 80%;
+    height: 450px;
+
+}
+.pagination{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap:8px;
+}
+.pagination__item{
+    padding: 10px;
+    background-color: #fff;
+}
 .footer{
     grid-area: footer;
     background-color: crimson;
