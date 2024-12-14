@@ -19,6 +19,15 @@
 .navbar{
     grid-area: navbar;
     background-color: lightseagreen;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.links{
+    display: none;
+    list-style: none;
+    gap:10px;
 }
 .filtros{
     grid-area: filtros;
