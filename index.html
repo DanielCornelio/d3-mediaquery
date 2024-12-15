@@ -10,8 +10,8 @@
 <body>
     <div class="container">
         <nav class="navbar">
-            <a href="#">
-                <h1>Logo</h1>
+            <a href="#" class="">
+                <h1 class="navbar__logo"><i class="fa-solid fa-pen-nib"></i>El Tintero</h1>
             </a>
             <ul class="links">
                 <li>Home</li>
@@ -19,12 +19,12 @@
                 <li>Contact</li>
                 <li>Blog</li>
             </ul>
-            <span><i class="fa-solid fa-bars"></i></span>
+            <span class="navbar__icon"><i class="fa-solid fa-bars"></i></span>
 
         </nav>
         <menu class="filtros">
             <p>Ordenar Por:</p>
-            <select name="" id="">
+            <select name="" id="" class="filtros__select">
                 <option value="">1</option>
                 <option value="">2</option>
                 <option value="">3</option>
@@ -34,25 +34,62 @@
         <main class="contenido">
             <div class="products">
                 <div class="card">
-
+                    <img src="./assets/img/dnt.jpg" alt="dnt">
+                    <p><b>Marca:</b> DNT</p>
+                    <button>Ver más</button>
                 </div>
                 <div class="card">
-                    
+                    <img src="./assets/img/dryden.jpg" alt="dryden">
+                    <p><b>Marca:</b> Dryden</p>
+                    <button>Ver más</button>
                 </div>
                 <div class="card">
-                    
+                    <img src="./assets/img/silblack.jpg" alt="silblack">
+                    <p><b>Marca:</b> Silblack</p>
+                    <button>Ver más</button>
+                </div>
+                <div class="card">
+                    <img src="./assets/img/monaco.avif" alt="monaco">
+                    <p><b>Marca:</b> Monaco</p>
+                    <button>Ver más</button>
+                </div>
+                <div class="card">
+                    <img src="./assets/img/noguez.jpg" alt="Noguex">
+                    <p><b>Marca:</b> Noguez</p>
+                    <button>Ver más</button>
+                </div>
+                <div class="card">
+                    <img src="./assets/img/petel.jpg" alt="petel">
+                    <p><b>Marca:</b> Petel</p>
+                    <button>Ver más</button>
+                </div>
+                <div class="card">
+                    <img src="./assets/img/pilot.jpg" alt="pilot">
+                    <p><b>Marca:</b> Pilot</p>
+                    <button>Ver más</button>
+                </div>
+                <div class="card">
+                    <img src="./assets/img/ruma.webp" alt="ruma">
+                    <p><b>Marca:</b> Ruma</p>
+                    <button>Ver más</button>
                 </div>
             </div>
             <ul class="pagination">
-                <li class="pagination__item">-</li>
+                <li class="pagination__item"><i class="fa-solid fa-chevron-left"></i></li>
                 <li class="pagination__item">1</li>
                 <li class="pagination__item">2</li>
                 <li class="pagination__item">3</li>
                 <li class="pagination__item">4</li>
-                <li class="pagination__item">-</li>
+                <li class="pagination__item"><i class="fa-solid fa-chevron-right"></i></li>
             </ul>
         </main>
-        <footer class="footer">footer</footer>
+        <footer class="footer">
+            <div class="redes">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+            <p>Todos los derechos reservados</p>
+        </footer>
     </div>
 </body>
 </html>
